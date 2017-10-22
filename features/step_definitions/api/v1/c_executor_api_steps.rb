@@ -21,3 +21,8 @@ FUNCTION
 
   post  path, params
 end
+
+
+Then("the response should have result {string}") do |string|
+  last_response.body.should have_content string
+end
