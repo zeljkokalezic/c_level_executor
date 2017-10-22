@@ -1,7 +1,9 @@
 # README
 
 API for executing C code and returning its result
+
 Used 'RubyInline' for executing C code
+
 This is not very scalable or versatile solution
 
 TODO:
