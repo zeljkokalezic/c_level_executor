@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API for executing C code and returning its result
+Used 'RubyInline' for executing C code
+This is not very scalable or versatile solution
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+TODO:
+- Proper dSYM file cleanup implementation or reimplementation
+- Proper authorization
+- Reimplement using some other aproach
